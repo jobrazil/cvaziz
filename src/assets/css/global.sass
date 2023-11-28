@@ -1,0 +1,33 @@
+@use 'partials/header.sass'
+@use 'partials/footer.sass'
+@use 'partials/cards.sass'
+@use 'partials/contact.sass'
+@use 'partials/buttons.sass'
+
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@layer base
+ 
+    body 
+        @apply w-screen h-screen bg-slate-200
+
+    main
+        @apply flex-row justify-around p-2 lg:flex
+
+    aside
+        @apply w-full h-max my-2 p-2 lg:w-1/4 border-2 rounded-md border-red-700 bg-slate-100
+        p
+            @apply text-justify p-2 bg-slate-50 rounded
+    img
+        @apply max-w-xs h-auto mx-auto rounded border-2
+    
+
+    .main-section
+        @apply w-full lg:w-2/3 p-4 border-2 rounded-md border-red-700 bg-slate-100
+        h3
+            @apply font-bold text-center p-3 
+
+    h2
+        @apply font-bold text-center p-6 leading-3 underline text-red-600 

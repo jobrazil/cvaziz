@@ -1,0 +1,17 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+
+@layer components
+
+    form > div
+        @apply m-3
+
+    #coo-nom, #coo-email, #coo-description, #coo-societe
+        @apply flex flex-wrap gap-1 justify-between
+        textarea, input
+            @apply border-2 border-zinc-500 rounded p-2 lg:w-full
+
+    #placeholder-descr
+        @apply w-full
