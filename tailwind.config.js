@@ -9,7 +9,7 @@ module.exports = {
         wiggle: 'wiggle 1s ease-in-out infinite',
       },
       backgroundImage: {
-        'fond-div': "url('../img/so-white.png')",
+        'fond-div': "url('../img/denim.webp')",
       },
       colors: {
         custom: {
